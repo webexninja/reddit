@@ -1,0 +1,7 @@
+<% @posts.each do |post|  %>
+	<div>
+		<label><b>Title:</b></label>	<%= post.title%> <br>
+		<label><b>Content:</b></label><%= post.text%>  <br>
+		<label><b>Author:</b></label><%= post.author%>
+	</div>
+<%end%>

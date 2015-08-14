@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: "Reddit, what are some words that I'm most likely mispronouncing?"
+  text: "..and teach me how to pronounce them correctly."
+  author: peppermintswirlgirl
+
+two:
+  title: Switzerland lifts sanctions against Iran
+  text: "ZURICH (Reuters) - Neutral Switzerland will officially lift on Thursday sanctions against Iran that had been suspended since January 2014, the government announced on Wednesday, citing a deal last month between Tehran and six big powers to curb Iran's nuclear program."
+  author: EDT
+
+three:
+  title: "Reddit, what do you do when you're feeling sick?"
+  text: "things to keep me busy, get me back on my feet sooner, tips etc"
+  author: FunkyFunkster

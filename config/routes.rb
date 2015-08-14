@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'posts_controller/home'
+
+  get 'posts_controller/show'
+
+  get 'posts_controller/edit'
+
+  get 'posts_controller/new'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
