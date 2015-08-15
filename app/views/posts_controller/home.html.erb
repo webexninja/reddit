@@ -1,7 +1,34 @@
+<nav id = "nav1" class="navbar navbar-default">
+	  <div id = "myheader" class="container-fluid">
+	  	<div class="page-header">
+  			<h1>CReddit <small>A Reddit Clone</small></h1>
+		</div>
+	  </div>
+</nav>
+<nav id= "nav2" class="navbar navbar-inverse">
+	<ul class="nav navbar-nav">
+		<li><a href="#">Trending</a></li>
+		<li><a href="#">Ask a Question</a></li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+		<li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>	
+	</ul>	
+</nav>
+<div class="container-fluid">
+	
+
 <% @posts.each do |post|  %>
-	<div>
-		<label><b>Title:</b></label>	<%= post.title%> <br>
-		<label><b>Content:</b></label><%= post.text%>  <br>
-		<label><b>Author:</b></label><%= post.author%>
+	<div class="row">
+		<div class="col-xs-3">
+			Label
+		</div>
+		<div class="col-xs-9">
+			<%= post.title%> <br>
+			<%= post.text%>  <br>
+			<%= post.author%>	
+		</div>		
 	</div>
 <%end%>
+
+
+</div>
